@@ -12,10 +12,8 @@
 3. SQLite
 4. MSTest
 
-![Главная страница](https://github.com/axxcel/InfoPhysics/blob/main/Screens/1.jpg?raw=true)
+![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/main.jpg?raw=true)
 </br> </br> </br>
-![Главная страница](https://github.com/axxcel/InfoPhysics/blob/main/Screens/2.jpg?raw=true)
+![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
 </br> </br> </br>
-![Главная страница](https://github.com/axxcel/InfoPhysics/blob/main/Screens/3.jpg?raw=true)
-</br> </br> </br>
-![Главная страница](https://github.com/axxcel/InfoPhysics/blob/main/Screens/4.jpg?raw=true)
+![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
