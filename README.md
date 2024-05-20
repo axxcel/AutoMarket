@@ -1,5 +1,5 @@
 # Программный продука на основе готовой спецификации на уровне модуля.
-# AutoMarket - это информационная система, которая предоставляет возможность выбрать автомобиль и добавить туда дополнительные опции для повышения уровня комфорта.
+## AutoMarket - это информационная система, которая предоставляет возможность выбрать автомобиль и добавить туда дополнительные опции для повышения уровня комфорта.
 
 # Функции, которые реализованы в программе:
 1. Просмотр автомобилей.
@@ -13,7 +13,10 @@
 4. MSTest, Microsoft Testing Framework, — это платформа тестирования для приложений .NET. Он позволяет создавать и выполнять тесты, а также предоставлять наборы тестов с интеграцией с Обозреватель Visual Studio и Visual Studio Code Test, .NET CLI и многими конвейерами CI.
 
 ![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/main.jpg?raw=true)
+Главная страница
 </br> </br> </br>
-![Отображение карточки авто](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
+![Отображение выбранной карточки автомобиля](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
+Отображение выбранной карточки автомобиля
 </br> </br> </br>
-![Чек собранного авто](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
+![Чек собранного автомобиля](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
+Отображение выбранной карточки автомобиля
