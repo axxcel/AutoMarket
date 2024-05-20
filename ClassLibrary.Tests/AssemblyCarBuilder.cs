@@ -6,7 +6,7 @@ using System.Runtime.ConstrainedExecution;
 namespace ClassLibrary.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class AssemblyCarBuilder
     {
         [TestMethod]
         public void Constructor_SetsCarAndAssemblyCar()

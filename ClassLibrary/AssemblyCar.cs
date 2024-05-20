@@ -45,5 +45,10 @@ namespace ClassLibrary
         /// Скидка собранного автомобиля.
         /// </summary>
         public int Discount { get; set; }
+
+        public void SetupPrice(Car car)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

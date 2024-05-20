@@ -10,7 +10,7 @@
     <Grid>
         <ScrollViewer VerticalScrollBarVisibility="Auto">
             <StackPanel Orientation="Horizontal">
-                <Button HorizontalAlignment="Left" FontSize="16" Padding="20,5,20,5" Background="#FF5E54E0" Foreground="White" Click="BtnBack" BorderBrush="{x:Null}" Height="40" VerticalAlignment="Top">Назад
+                <Button HorizontalAlignment="Left" FontSize="16" Padding="20,5,20,5" Background="#FF5E54E0" Foreground="White" Click="BtnBack" BorderBrush="{x:Null}" Height="40" VerticalAlignment="Top" Name="ButtonBack">Назад
                     <Button.Resources>
                         <Style TargetType="Border">
                             <Setter Property="CornerRadius" Value="15"/>

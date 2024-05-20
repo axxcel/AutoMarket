@@ -12,8 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 using ClassLibrary;
+using DLLForWriteLogs;
 
 namespace car
 {
@@ -26,23 +26,12 @@ namespace car
         {
             InitializeComponent();
             MainFrame.Content = new MainCar();
-            //var page = new MainCar(this);
-
         }
         private void Btn(object sender, RoutedEventArgs e)
         {
-            //MainWindow main = Application.Current.MainWindow as MainWindow;
-            //if (main != null)
-            //{
-            //    main.Close();
-            //}
-
             this.Close();
-        }
-
-        private void BtnBuildCar(object sender, RoutedEventArgs e)
-        {
-            //MainFrame.Content = new BuildCar();
+            WriteLogs writeLogs = new WriteLogs();
+            writeLogs.Logs(bClose.Content.ToString());
         }
     }
 }

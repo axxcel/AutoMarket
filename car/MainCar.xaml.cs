@@ -19,6 +19,7 @@ using Microsoft.Data.Sqlite;
 using ClassLibrary;
 using System.Diagnostics.PerformanceData;
 using System.Data;
+using DLLForWriteLogs;
 
 namespace car
 {
@@ -106,15 +107,16 @@ namespace car
                 Tag = id,
             };
             button.Click += ShowFullCart;
-
             ListCars.Children.Add(button);
-
             return button;
         }
 
         private void ShowFullCart(object sender, RoutedEventArgs e)
         {
             var Button = (Button)sender;
+
+            WriteLogs writeLogs = new WriteLogs();
+            writeLogs.Logs("карточка товара " + Button.Tag.ToString());
 
             MainWindow main = Application.Current.MainWindow as MainWindow;
             if (main != null)
@@ -152,8 +154,6 @@ namespace car
         public MainCar()
         {
             InitializeComponent();
-
-            //Bodies.; 
             using (var con = new SqliteConnection("Data Source=db.db;"))
             {
                 con.Open();
@@ -174,7 +174,6 @@ namespace car
                 }
                 con.Close();
             }
-
         }
     }
 }

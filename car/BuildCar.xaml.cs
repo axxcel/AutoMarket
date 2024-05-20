@@ -12,9 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 using ClassLibrary;
-
+using DLLForWriteLogs;
 namespace car
 {
     /// <summary>
@@ -48,9 +47,6 @@ namespace car
                 TextAlert.Visibility = Visibility.Visible;
             }
             Sum.Text = SumPrice.ToString() + "р";
-
-
-            //car.CreateCar(brand, body, price, oldPrice);
             car.brand = brand;
             car.body = body;
             car.price = price;
@@ -61,6 +57,9 @@ namespace car
         }
         private void BtnBack(object sender, RoutedEventArgs e)
         {
+            WriteLogs write = new WriteLogs();
+            write.Logs(ButtonBack.Content.ToString());
+
             MainWindow main = Application.Current.MainWindow as MainWindow;
             if (main != null)
             {
@@ -70,10 +69,12 @@ namespace car
 
         private void GetCheck(object sender, RoutedEventArgs e)
         {
+            WriteLogs write = new WriteLogs();
+            write.Logs(Reg.Content.ToString());
+
             AssemblyCar assemblyCar = assemblyCarBuilder.GetCar();
             check = new Check(car, assemblyCar);
             check.Show();
-
         }
         private void AddComputer_Checked(object sender, RoutedEventArgs e)
         {
