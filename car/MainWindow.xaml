@@ -1,0 +1,24 @@
+﻿<Window x:Class="car.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:car"
+        mc:Ignorable="d"
+        Title="AutoMarket" Height="650" Width="1000">
+    <Grid Background="white" >
+        <StackPanel  VerticalAlignment="Top" Margin="10,10,10,10">
+            <Grid Height="40" Margin="0,0,0,20">
+                <TextBlock FontFamily="Rockwell Extra Bold" FontSize="30" Foreground="#FF5E54E0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0">Автомаркет</TextBlock>
+                <Button HorizontalAlignment="Right" Margin="0,0,0,0" FontSize="16" Padding="20,0,20,3" Background="#FF5E54E0" Foreground="White" Click="Btn" BorderBrush="{x:Null}" Name="bClose">Закрыть
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Window>
