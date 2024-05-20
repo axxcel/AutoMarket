@@ -13,13 +13,10 @@
 4. MSTest, Microsoft Testing Framework, — это платформа тестирования для приложений .NET. Он позволяет создавать и выполнять тесты, а также предоставлять наборы тестов с интеграцией с Обозреватель Visual Studio и Visual Studio Code Test, .NET CLI и многими конвейерами CI.
 
 ![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/main.jpg?raw=true)
-Главная страница
-<div align="center">
-Главная страница
-</div>
+<div align="center">Главная страница</div>
 </br> </br> </br>
 ![Отображение выбранной карточки автомобиля](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
-Отображение выбранной карточки автомобиля
+<div align="center">Отображение выбранной карточки автомобиля</div>
 </br> </br> </br>
 ![Чек собранного автомобиля](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
-Отображение выбранной карточки автомобиля
+<div align="center">Отображение выбранной карточки автомобиля</div>
