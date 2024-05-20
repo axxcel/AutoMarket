@@ -19,4 +19,4 @@
 <div align="center">Отображение выбранной карточки автомобиля</div>
 </br> </br> </br>
 ![Чек собранного автомобиля](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
-<div align="center">Отображение выбранной карточки автомобиля</div>
+<div align="center">Чек собранного автомобиля</div>
