@@ -14,6 +14,6 @@
 
 ![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/main.jpg?raw=true)
 </br> </br> </br>
-![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
+![Отображение карточки авто](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
 </br> </br> </br>
-![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
+![Чек собранного авто](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuyCar.jpg?raw=true)
