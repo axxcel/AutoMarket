@@ -14,7 +14,9 @@
 
 ![Главная страница](https://github.com/axxcel/AutoMarket/blob/main/car/screens/main.jpg?raw=true)
 Главная страница
-</td></tr></table>
+<div align="center">
+Главная страница
+</div>
 </br> </br> </br>
 ![Отображение выбранной карточки автомобиля](https://github.com/axxcel/AutoMarket/blob/main/car/screens/BuildCar.jpg?raw=true)
 Отображение выбранной карточки автомобиля
